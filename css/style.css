@@ -116,8 +116,8 @@
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><rect width="1920" height="1080" fill="%23f8f9fa"/><circle cx="400" cy="200" r="100" fill="%23e9ecef" opacity="0.5"/><circle cx="1200" cy="400" r="150" fill="%23dee2e6" opacity="0.3"/><circle cx="800" cy="700" r="80" fill="%23ced4da" opacity="0.4"/></svg>');
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><rect width="1920" height="1080" fill="%23f8f9fa"/><circle cx="400" cy="200" r="100" fill="%23e9ecef" opacity="0.5"/><circle cx="1200" cy="400" r="150" fill="%23dee2e6" opacity="0.3"/><circle cx="800" cy="700" r="80" fill="%23ced4da" opacity="0.4"/></svg>');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -340,6 +340,12 @@
     flex-shrink: 0;
 }
 
+.about-images .image-top {
+    margin-bottom: 30px;
+}
+
+
+
 .footer-bottom {
     margin-top: var(--spacing-2xl);
     padding-top: var(--spacing-xl);
@@ -361,178 +367,4 @@
 
 .footer-link:hover {
     color: var(--accent-color);
-}
-
-/* Mobile Responsive */
-@media (max-width: 991.98px) {
-    .navbar-actions {
-        flex-direction: column;
-        width: 100%;
-        margin-top: var(--spacing-md);
-        gap: var(--spacing-sm);
-    }
-    
-    .btn-call,
-    .btn-appointment {
-        width: 100%;
-        justify-content: center;
-    }
-    
-    .hero-content .dr-cindy {
-        font-size: var(--font-size-4xl);
-    }
-    
-    .hero-form {
-        margin-top: var(--spacing-2xl);
-    }
-}
-
-@media (max-width: 767.98px) {
-    .hero-section {
-        background-attachment: scroll;
-        min-height: 90vh;
-    }
-    
-    .hero-content .dr-cindy {
-        font-size: var(--font-size-3xl);
-    }
-    
-    .hero-description {
-        font-size: var(--font-size-base);
-    }
-    
-    .hero-form {
-        padding: var(--spacing-lg);
-    }
-    
-    .hero-form h2 {
-        font-size: var(--font-size-2xl);
-    }
-    
-    .hero-form h3 {
-        font-size: var(--font-size-xl);
-    }
-    
-    .main-footer {
-        text-align: center;
-    }
-    
-    .footer-bottom .col-md-6:last-child {
-        margin-top: var(--spacing-md);
-    }
-    
-    .hours-row {
-        font-size: var(--font-size-sm);
-    }
-}
-
-/* Animations */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-/* Loading states */
-.loading {
-    opacity: 0.5;
-    pointer-events: none;
-}
-
-/* Smooth scrolling */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--accent-color);
-    border-radius: var(--border-radius-full);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: var(--btn-primary-hover);
-}
-
-/* Font Utility Classes */
-.font-bodoni {
-    font-family: var(--font-heading) !important;
-}
-
-.font-proxima {
-    font-family: var(--font-primary) !important;
-}
-
-.font-light {
-    font-weight: var(--font-weight-light) !important;
-}
-
-.font-normal {
-    font-weight: var(--font-weight-normal) !important;
-}
-
-.font-medium {
-    font-weight: var(--font-weight-medium) !important;
-}
-
-.font-semibold {
-    font-weight: var(--font-weight-semibold) !important;
-}
-
-.font-bold {
-    font-weight: var(--font-weight-bold) !important;
-}
-
-/* Specific font combinations */
-.text-heading {
-    font-family: var(--font-heading);
-    font-weight: var(--font-weight-normal);
-}
-
-.text-body-light {
-    font-family: var(--font-primary);
-    font-weight: var(--font-weight-light);
-}
-
-.text-body-semibold {
-    font-family: var(--font-primary);
-    font-weight: var(--font-weight-semibold);
-}
-
-/* Override button font weights */
-.btn {
-    font-weight: var(--font-weight-semibold);
 }
