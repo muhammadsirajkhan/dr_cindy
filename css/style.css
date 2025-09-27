@@ -49,7 +49,7 @@
 .navbar-nav .nav-link {
     font-family: var(--font-primary);
     font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-semibold);
     color: var(--text-light);
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -168,6 +168,7 @@
     line-height: var(--line-height-relaxed);
     color: rgba(255, 255, 255, 0.9);
     max-width: 500px;
+    font-weight: var(--font-weight-light);
 }
 
 .hero-form {
@@ -293,6 +294,7 @@
 .footer-links a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
+    font-weight: var(--font-weight-light);
     transition: color var(--transition-fast) var(--transition-ease);
 }
 
@@ -329,6 +331,7 @@
     align-items: flex-start;
     gap: var(--spacing-sm);
     color: rgba(255, 255, 255, 0.8);
+    font-weight: var(--font-weight-light);
 }
 
 .contact-item i {
@@ -482,4 +485,54 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--btn-primary-hover);
+}
+
+/* Font Utility Classes */
+.font-bodoni {
+    font-family: var(--font-heading) !important;
+}
+
+.font-proxima {
+    font-family: var(--font-primary) !important;
+}
+
+.font-light {
+    font-weight: var(--font-weight-light) !important;
+}
+
+.font-normal {
+    font-weight: var(--font-weight-normal) !important;
+}
+
+.font-medium {
+    font-weight: var(--font-weight-medium) !important;
+}
+
+.font-semibold {
+    font-weight: var(--font-weight-semibold) !important;
+}
+
+.font-bold {
+    font-weight: var(--font-weight-bold) !important;
+}
+
+/* Specific font combinations */
+.text-heading {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-normal);
+}
+
+.text-body-light {
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-light);
+}
+
+.text-body-semibold {
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-semibold);
+}
+
+/* Override button font weights */
+.btn {
+    font-weight: var(--font-weight-semibold);
 }

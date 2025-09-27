@@ -8,7 +8,7 @@
 body {
     font-family: var(--font-primary);
     font-size: var(--font-size-base);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-light);
     line-height: var(--line-height-normal);
     color: var(--text-dark);
     background-color: var(--background-light);
@@ -35,16 +35,39 @@ h6 { font-size: var(--font-size-lg); }
 p {
     margin-bottom: var(--spacing-md);
     color: var(--text-dark);
+    font-weight: var(--font-weight-light);
 }
 
 a {
     color: var(--accent-color);
     text-decoration: none;
+    font-weight: var(--font-weight-semibold);
     transition: color var(--transition-fast) var(--transition-ease);
 }
 
 a:hover {
     color: var(--btn-primary-hover);
+}
+
+/* Anchor Classes */
+.link-light {
+    font-weight: var(--font-weight-light);
+}
+
+.link-normal {
+    font-weight: var(--font-weight-normal);
+}
+
+.link-medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.link-semibold {
+    font-weight: var(--font-weight-semibold);
+}
+
+.link-bold {
+    font-weight: var(--font-weight-bold);
 }
 
 /* Lists */
