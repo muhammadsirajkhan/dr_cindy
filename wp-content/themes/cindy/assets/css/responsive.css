@@ -1,0 +1,604 @@
+@media only screen and (min-width: 100px) and (max-width: 1799px) {
+    :root {
+        /* Font sizes */
+        --font-size-xs: 12px;
+        --font-size-sm: 14px;
+        --font-size-base: 16px;
+        --font-size-lg: 16px;
+        --font-size-xl: 18px;
+        --font-size-2xl: 22px;
+        --font-size-26: 24px;
+        --font-size-30: 26px;
+        --font-size-3xl: 36px;
+        --font-size-50: 45px;
+        --font-size-4xl: 65px;
+
+        /* Spacing */
+        --spacing-xs: 8px;
+        --spacing-sm: 12px;
+        --spacing-md: 16px;
+        --spacing-lg: 20px;
+        --spacing-xl: 24px;
+        --spacing-2xl: 32px;
+        --spacing-3xl: 40px;
+        --spacing-4xl: 48px;
+        --spacing-5xl: 55px;
+        --spacing-6xl: 65px;
+
+        /* Header */
+        --header-height: 80px;
+    }
+
+    nav ul {
+        gap: 50px;
+    }
+
+    .navbar-actions {
+        gap: 20px;
+    }
+
+    .navbar-actions .btn-2::before {
+        left: -15px;
+    }
+
+    .navbar {
+        padding: 25px 0;
+    }
+
+    span.title-1 {
+        font-size: 60px;
+    }
+
+    span.title-2 {
+        font-size: 85px;
+    }
+
+    .footer-wrap {
+        padding: 80px;
+    }
+
+    .footer-bottom-right,
+    .footer-top-right {
+        padding-left: 130px;
+    }
+
+    .home-banner .content {
+        padding-top: 100px;
+    }
+
+    .inner-banner h1 {
+        font-size: 100px;
+    }
+
+    .inner-banner .content p {
+        font-size: 35px;
+    }
+
+    .zigzag .content {
+        max-width: 650px;
+    }
+
+    .benefits-item {
+        padding: 40px 15px;
+        height: 100%;
+    }
+
+    .zigzag .image img.side-image {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .home-banner .sub-title {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1599px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1366px;
+    }
+
+    :root {
+        /* Font sizes */
+        --font-size-xs: 11px;
+        --font-size-sm: 13px;
+        --font-size-base: 15px;
+        --font-size-lg: 15px;
+        --font-size-xl: 17px;
+        --font-size-2xl: 22px;
+        --font-size-26: 24px;
+        --font-size-30: 26px;
+        --font-size-3xl: 28px;
+        --font-size-50: 34px;
+        --font-size-4xl: 55px;
+
+        /* Spacing */
+        --spacing-xs: 6px;
+        --spacing-sm: 10px;
+        --spacing-md: 14px;
+        --spacing-lg: 18px;
+        --spacing-xl: 22px;
+        --spacing-2xl: 28px;
+        --spacing-3xl: 35px;
+        --spacing-4xl: 42px;
+        --spacing-5xl: 48px;
+        --spacing-6xl: 55px;
+
+        /* Header */
+        --header-height: 70px;
+    }
+
+    nav ul {
+        gap: 40px;
+    }
+
+    .navbar-actions .btn-2::before {
+        left: -11px;
+    }
+
+    .navbar-actions {
+        gap: 20px;
+    }
+
+    .navbar-actions .btn-link {
+        margin: 0 !important;
+    }
+
+    .btn-appointment {
+        margin: 0;
+    }
+
+    img.test-side-image {
+        max-width: 150px;
+    }
+
+    span.title-2 {
+        font-size: 80px;
+    }
+
+    span.title-1 {
+        font-size: 55px;
+    }
+
+    section.map-section iframe {
+        height: 800px;
+    }
+
+    .main-footer h5 {
+        font-size: 28px;
+    }
+
+    .footer-wrap::before {
+        width: calc(100% + 35px);
+        height: calc(100% + 35px);
+    }
+
+    .service-item .icon-circle img {
+        max-width: 150px;
+    }
+
+    .inner-banner h1 {
+        font-size: 85px;
+    }
+
+    .inner-banner .content p {
+        font-size: 25px;
+    }
+
+    .tabs-section .nav-tabs .nav-link {
+        font-size: 18px;
+        padding: 15px 15px;
+
+    }
+
+    .zigzag .content {
+        max-width: 580px;
+    }
+
+    .benefits-item {
+        padding: 20px 15px;
+
+    }
+
+    .benefits-item .icon-circle img {
+        width: 80px;
+        height: auto;
+    }
+
+    .zigzag .image img.side-image {
+        max-width: 200px;
+
+    }
+
+    .home-banner .sub-title {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1499px) {
+    /* :root {
+        --font-size-50: 30px;
+    } */
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1299px) {
+    :root {
+        --font-size-50: 35px;
+        --font-size-base: 16px;
+        --font-size-4xl: 45px;
+        --font-size-30: 24px;
+    }
+
+    .service-item .icon-circle img,
+    img.test-side-image {
+        max-width: 120px;
+    }
+
+    .fs-item {
+        padding: 35px;
+    }
+
+    .zigzag .content {
+        max-width: 530px;
+    }
+
+    section.map-section iframe {
+        height: 600px;
+    }
+
+    span.title-1 {
+        font-size: 45px;
+    }
+
+    span.title-2 {
+        font-size: 65px;
+    }
+
+    .footer-wrap {
+        padding: 60px;
+    }
+
+    .footer-bottom-right,
+    .footer-top-right {
+        padding-left: 100px;
+    }
+
+    .inner-banner h1 {
+        font-size: 65px;
+    }
+
+    .home-banner .sub-title {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1299px) {
+    :root {
+        --font-size-50: 26px;
+        --font-size-base: 16px;
+        --font-size-4xl: 40px;
+        --font-size-30: 22px;
+    }
+
+    .service-item .icon-circle img,
+    img.test-side-image {
+        max-width: 80px;
+    }
+
+    .footer-top {
+        margin-bottom: 30px;
+        border-bottom: unset;
+        padding-bottom: 0;
+    }
+
+    .footer-info {
+        margin-bottom: 30px;
+    }
+
+    .footer-wrap {
+        margin-top: 30px;
+        padding: 30px 15px;
+    }
+
+    .social-links {
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom {
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+
+    footer.main-footer {
+        padding-bottom: 15px;
+    }
+
+    .featured-services .col,
+    .benefits-section .col {
+        flex: 1 0 30%;
+    }
+
+    .featured-services .row {
+        row-gap: 50px;
+    }
+
+    .benefits-section .row {
+        row-gap: 30px;
+    }
+
+    .pagination-wrap {
+        display: none;
+    }
+
+    .footer-info p {
+        max-width: 100%;
+
+    }
+
+    .arrow-wrap .banner-next,
+    .arrow-wrap .banner-prev {
+        padding: 10px 10px;
+    }
+
+    .zigzag .image img.side-image {
+        display: none;
+    }
+
+    .arrow-wrap {
+        gap: 15px;
+    }
+
+    .footer-bottom-right,
+    .footer-top-right {
+        padding-left: 0;
+    }
+
+    .footer-wrap::after {
+        display: none;
+    }
+
+    .navbar-nav {
+        gap: 15px;
+    }
+
+    .navbar-nav {
+        gap: 15px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-actions {
+        flex-direction: column;
+        align-items: start;
+        padding-bottom: 0px;
+        gap: 15px;
+
+    }
+
+    .navbar-actions .btn-2::before {
+        display: none;
+    }
+
+    .brand-text img {
+        max-width: 170px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 599px) {
+    :root {
+        --spacing-6xl: 50px;
+        --spacing-3xl: 25px;
+        --font-size-50: 22px;
+        --font-size-2xl: 18px;
+        --font-size-3xl: 20px;
+        --font-size-4xl: 32px;
+        --font-size-30: 18px;
+    }
+
+    .super-title {
+        font-size: 14px;
+    }
+
+    .tabs-section .content {
+        margin-top: 16px;
+    }
+
+    .tab-cus {
+        padding: 30px;
+    }
+
+    hr {
+        border-color: transparent;
+        margin-top: var(--spacing-3xl);
+        margin-bottom: var(--spacing-3xl);
+    }
+
+    h2 {
+        font-size: var(--font-size-4xl);
+    }
+
+    .patient-form .wpcf7-form .two-in-one {
+        flex-direction: column;
+    }
+
+    .patient-form .wpcf7-form .cf7-col {
+        width: 100%;
+    }
+
+    .patient-form .wpcf7-form .two-in-one .radio-boxes {
+        width: 100%;
+        margin-right: 30px;
+    }
+
+    .patient-form .wpcf7-form .wpcf7-radio,
+    .patient-form .wpcf7-form .wpcf7-checkbox {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .hipaa-section span {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .hipaa-section .wpcf7-list-item label::before {
+        line-height: 16px;
+    }
+
+    .title-wrap .contact-item {
+        max-width: 320px;
+        margin: 0 auto;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dual-page-wrap {
+        justify-content: center;
+        position: relative;
+        bottom: -20px;
+    }
+
+    .contact-card {
+        flex: 1 1 100%;
+    }
+
+    .contact-card-wrap {
+        margin-bottom: 30px;
+    }
+
+    .featured-services .row,
+    .benefits-section .row {
+        row-gap: 15px;
+    }
+
+    .mb-5 {
+        margin-bottom: 40px !important;
+    }
+
+    .home-banner .content .btn {
+        margin-top: 30px;
+    }
+
+    .home-banner .image img {
+        aspect-ratio: 1912 / 2352;
+    }
+
+    .featured-services .col,
+    .benefits-section .col {
+        flex: 1 0 80%;
+    }
+
+    .service-item p {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .testimonials-section .title-wrap {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+
+
+    .testimonials-section .swiper-pagination {
+        text-align: center;
+        margin: 15px 0 0;
+    }
+
+    .author-name span {
+        display: block;
+    }
+
+    .testimonials-section .title-wrap,
+    .testimonial-content p,
+    .author-name {
+        text-align: center !important;
+    }
+
+    section.map-section iframe {
+        height: 450px;
+    }
+
+    .author-name {
+        margin: 15px 0 0 !important;
+    }
+
+    span.title-2 {
+        font-size: 30px;
+    }
+
+    span.title-1 {
+        font-size: 24px;
+    }
+
+    .footer-wrap {
+        padding: 30px 0;
+    }
+
+    .footer-info img {
+        max-width: 170px;
+    }
+
+    .footer-bottom p {
+        text-align: center;
+    }
+
+    .footer-bottom .col-md-6.text-end {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .home-banner .sub-title {
+        font-size: 22px;
+    }
+
+    .inner-banner .content p {
+        font-size: 16px;
+    }
+
+    .inner-banner h1 {
+        font-size: 39px;
+    }
+
+    .inner-banner .content p svg {
+        display: none;
+    }
+
+    .inner-banner .container-wrap {
+        padding-bottom: 80px;
+    }
+
+    .tabs-section .nav-tabs .nav-link {
+        padding: 8px 15px;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .tabs-section .nav-tabs .nav-link.active::before {
+        display: none;
+    }
+
+    .tabs-section .nav-tabs {
+        gap: 5px;
+    }
+
+    .main-header .scrolled,
+    .main-header:has(.show) {
+        background: #000000;
+    }
+
+
+
+
+
+}

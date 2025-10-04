@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'LTC Bodoni 175 Pro';
+    src: url('LTCBodoni175Pro.woff2') format('woff2'),
+        url('LTCBodoni175Pro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova Cond';
+    src: url('FONTSPRINGDEMO-ProximaNovaCondMediumRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaCondMediumRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova Cond';
+    src: url('FONTSPRINGDEMO-ProximaNovaCondLightRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaCondLightRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova Cond';
+    src: url('FONTSPRINGDEMO-ProximaNovaCondRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaCondRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova Cond';
+    src: url('FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaCondSemiboldRegular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('ProximaNova-Regular.woff2') format('woff2'),
+        url('ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('ProximaNova-Semibold.woff2') format('woff2'),
+        url('ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

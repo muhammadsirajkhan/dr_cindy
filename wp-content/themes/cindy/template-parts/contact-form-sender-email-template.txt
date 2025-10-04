@@ -1,0 +1,33 @@
+Dear [your-name],
+
+Thank you for contacting Dr. Cindy Joseph's office!
+
+We have received your message and will get back to you as soon as possible, typically within 24-48 business hours.
+
+YOUR MESSAGE DETAILS
+--------------------
+Name: [your-name]
+Email: [your-email]
+Phone: [your-phone]
+
+Message:
+[your-message]
+
+Submitted on: [_date] at [_time]
+
+--------------------
+
+If you need immediate assistance, please feel free to call us directly:
+
+Dr. Cindy Joseph
+1A Quaker Ridge Road
+New Rochelle, NY, 10804
+Phone: 914.602.0114
+
+We look forward to speaking with you soon!
+
+Best regards,
+Dr. Cindy Joseph's Office
+
+---
+This is an automated confirmation email. Please do not reply to this message.
