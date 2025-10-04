@@ -1649,3 +1649,19 @@ nav a:focus-visible {
 .title-wrap .contact-item {
     font-size: 18px;
 }
+
+.home .navbar-brand {
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+
+.home .scrolled .navbar-brand {
+    visibility: visible;
+}
+
+.footer-links a,
+.office-hours ul li,
+.contact-item span,
+.footer-info p {
+    font-weight: 600;
+}

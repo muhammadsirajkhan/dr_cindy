@@ -1,0 +1,74 @@
+========================================
+NEW PATIENT INFORMATION FORM SUBMISSION
+========================================
+
+PERSONAL INFORMATION
+--------------------
+First Name: [first-name]
+Last Name: [last-name]
+MI: [mi]
+Date of Submission: [date-field]
+
+Parent/Guardian (for Minor Children): [parent-guardian]
+
+Date of Birth: [date-birth]
+Occupation: [occupation]
+
+CONTACT INFORMATION
+-------------------
+Address: [address]
+City: [city]
+State: [state]
+Zip: [zip]
+
+Telephone (Home): [phone-home]
+Telephone (Cell): [phone-cell]
+Telephone (Work): [phone-work]
+
+E-mail: [email-field]
+
+PATIENT STATUS
+--------------
+New Patient: [new-patient]
+Referred By: [referred-by]
+
+EYE CARE HISTORY
+----------------
+Last Eye Exam: [last-eye-exam]
+Reason For Today's Exam: [reason-exam]
+Previous Injury, Disease Or Surgery: [previous-injury]
+
+VISION CORRECTION
+-----------------
+Contact Lens Wearer/Interested: [contact-lens]
+Type of Glasses: [glasses]
+
+MEDICAL INFORMATION
+-------------------
+Insurance Type: [insurance-type]
+Last Medical Exam: [last-medical-exam]
+Primary Care Physician: [primary-care]
+
+Current Medications: [medications]
+Seasonal Allergies: [seasonal-allergies1]
+
+FAMILY HISTORY
+--------------
+[family-history]
+
+HIPAA CONSENT
+-------------
+Consent 1 (Treatment & Operations): [hipaa-one]
+Consent 2 (Right to Revoke & Review): [hipaa-two]
+Consent 3 (Revoke in Writing): [hipaa-three]
+Consent 4 (Contact Card via Email): [hipaa-four]
+
+SIGNATURE
+---------
+Date: [signature-date]
+
+========================================
+This form was submitted from: [_url]
+Submitted on: [_date] at [_time]
+User IP: [_remote_ip]
+========================================

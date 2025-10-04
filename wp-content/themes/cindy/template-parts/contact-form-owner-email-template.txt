@@ -1,0 +1,24 @@
+========================================
+NEW CONTACT FORM SUBMISSION
+========================================
+
+You have received a new message from your website contact form.
+
+SENDER INFORMATION
+------------------
+Name: [your-name]
+Email: [your-email]
+Phone: [your-phone]
+
+MESSAGE
+-------
+[your-message]
+
+========================================
+SUBMISSION DETAILS
+------------------
+Submitted from: [_url]
+Date & Time: [_date] at [_time]
+IP Address: [_remote_ip]
+Browser: [_user_agent]
+========================================

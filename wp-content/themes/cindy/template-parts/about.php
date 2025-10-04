@@ -50,16 +50,14 @@ get_header();
 
 
 <?php
-$about = get_field('about', 7);
+$about = get_field('about');
 $image = $about['image'] ?? '';
-$super_title = $about['super_title'] ?? '';
 $title = $about['title'] ?? '';
-$sub_title = $about['sub_title'] ?? '';
 $content = $about['content'] ?? '';
 
 ?>
 <section class="about-doctor">
-  
+
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 col-12 mb-lg-0 mb-5">
@@ -69,12 +67,10 @@ $content = $about['content'] ?? '';
             </div>
             <div class="col-lg-6 col-12">
                 <div class="title-wrap">
-                    <span class="super-title"><?php echo $super_title; ?></span>
                     <h2 class="title"><?php echo $title; ?></h2>
-                    <h3 class="sub-title"><?php echo $sub_title; ?></h3>
                 </div>
                 <div class="content">
-                    <p><?php echo $content; ?></p>
+                    <?php echo $content; ?>
                 </div>
             </div>
         </div>
@@ -95,7 +91,7 @@ $content = $about['content'] ?? '';
                 <div class="content text-center">
                     <!-- <div class="content px-3"><?php echo $content; ?></div> -->
                     <div class="content px-3">
-                        <span class="sub-title">Meet the team</span>
+                        <span class="super-title">Meet the team</span>
                         <h2>The Optical Team</h2>
                         <p>The Optical Shop is an independent, family-owned and operated business in the Wykagyl
                             community of New Rochelle. With over 25 years of experience in the industry they strive to

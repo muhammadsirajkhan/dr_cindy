@@ -311,13 +311,9 @@ get_header();
                     </div>
 
                     <div class="cf7-row">
-                        <div class="cf7-col-6">
+                        <div class="cf7-col-12">
                             <label>Seasonal Allergies <span class="star">*</span></label>
                             [text* seasonal-allergies1 placeholder "Type Here..."]
-                        </div>
-                        <div class="cf7-col-6">
-                            <label>Seasonal Allergies <span class="star">*</span></label>
-                            [text* seasonal-allergies2 placeholder "Type Here..."]
                         </div>
                     </div>
 
@@ -334,7 +330,7 @@ get_header();
                         <div class="cf7-col-12">
                             <div class="hipaa-section">
                                 <label>HIPAA PRIVACY POLICY <span class="star">*</span></label>
-                                 [checkbox* hipaa-one use_label_element "I give Dr. Cindy Josephyne consent to use or disclose my protected health information to carry out treatment as well as health care operations to assure quality reviews."]
+                                 [checkbox* hipaa-one use_label_element "I give Dr. Cindy Joseph consent to use or disclose my protected health information to carry out treatment as well as health care operations to assure quality reviews."]
                                  [checkbox* hipaa-two use_label_element "I have been informed that I may revoke this authorization before my first service if no that I have the right to review any changes to the privacy policy of this practice."]
                                  [checkbox* hipaa-three use_label_element "I understand I may revoke this consent at any time by making a request in writing."]
                                  [checkbox* hipaa-four use_label_element "I have provided a copy of my card here so, at the completion of my contact information and I consent to having my contact card be sent to me by email, if applicable."]
@@ -343,22 +339,19 @@ get_header();
                         </div>
                     </div>
 
-                    <div class="cf7-row">
-                        <div class="cf7-col-6">
-                            <label>Patient Signature <span class="star">*</span></label>
-                            [signature* patient-signature color:#000000 backcolor:#dddddd width:300 height:200 id:10 class:signature_class]
-                        </div>
+                    <div class="cf7-row align-items-end">
                         <div class="cf7-col-6">
                             <label>Date <span class="star">*</span></label>
                             [date* signature-date]
                         </div>
-                    </div>
-
-                    <div class="cf7-row">
-                        <div class="cf7-col-12 text-center">
-                            [submit "Submit Form"]
+                        <div class="cf7-col-6">
+                           <div class="cf7-col-12 text-center">
+                                [submit "Submit Form"]
+                            </div>
                         </div>
                     </div>
+
+                   
                     
                     -->
                 </div>

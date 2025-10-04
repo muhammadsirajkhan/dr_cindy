@@ -19,7 +19,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-
+	<link rel="icon" type="image/x-icon" href="http://seewithdrcindy.com/wp-content/uploads/2025/10/cropped-fav.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>See With Dr. Cindy - Optometry Practice</title>
 	<!-- <base href="http://localhost/dr_cindy/"> -->
